@@ -1,0 +1,25 @@
+.parent {
+  padding: 25px;
+  background-color: blanchedalmond;
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  height: 350px;
+  align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+}
+ .title{
+  text-align: center;
+  border: 10px solid green;
+  background-color: slateblue;
+ }
+
+.child {
+  border: 2px solid red;
+  background-color: salmon;
+  padding: 20px;
+  font-size: 20px;
+  display: inline;
+  
+}

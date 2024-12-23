@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document </title>
+  <style>
+    .container {
+       display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .food {
+      border: 1px solid red;
+      padding: 10px;
+      border-radius: 10px;
+    }
+     .food img {
+      width: 100%;
+     }
+     /* simple media query */
+    @media screen an(max-wih: 576px) {
+      .container {
+        grid-template-columns: repeat(, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="food">
+      <img src="images/D.jpg" alt="">
+      <h3>Food Item - 1</h3>
+      <p>price: $100</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet libero unde aperiam eaque eligendi ea modi. Debitis impedit omnis laudantium.</p>
+    </div>
+    <div class="food">
+      <img src="images/D.jpg" alt="">
+      <h3>Food Item - 2</h3>
+      <p>price: $200</p>
+      <p>Autem deserunt laudantium quis, suscipit repudiandae, voluptates, vero ab maxime illo quas voluptate atque fugit facilis eius aliquid in dolorum?</p>
+    </div>
+    <div class="food">
+      <img src="images/D.jpg" alt="">
+      <h3>Food Item - 3</h3>
+      <p>price: $300</p>
+      <p>Aperiam dignissimos, illum et nihil soluta ipsum praesentium error autem impedit nulla odit rem sunt nesciunt necessitatibus officia ea facilis.</p>
+    </div>
+    <div class="food">
+      <img src="images/D.jpg" alt="">
+      <h3>Food Item - 4</h3>
+      <p>price: $400</p>
+      <p>Corporis, ducimus natus. Provident, quasi doloribus, neque fugit illum magni corporis deserunt quaerat nulla aliquam iusto harum beatae alias dolore.</p>
+    </div>
+    <div class="food">
+      <img src="images/D.jpg" alt="">
+      <h3>Food Item - 5</h3>
+      <p>price: $500</p>
+      <p>Et ad ducimus libero quaerat ratione cumque dolore omnis, culpa repudiandae deleniti vel itaque, nemo tempora voluptate cupiditate ab necessitatibus.</p>
+    </div>
+  </div>
+
+</body>
+</html>
