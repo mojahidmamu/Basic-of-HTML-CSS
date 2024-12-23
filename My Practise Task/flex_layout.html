@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Flex responsive layout</title>
+  <style>
+      .gallery{
+      display: flex;
+      gap: 10px;
+      border-radius: 30px;
+      background-color: aqua;
+    }
+    .group-1{
+       border: 2px solid red;
+       width: 40%;
+       height: 450px;
+       border-radius: 30px;
+       padding: 50px;
+    }
+    .group-2{
+        border: 2px solid red;
+        width: 60%;
+        height: 450px;
+        border-radius: 30px;
+        justify-content: center;
+        padding: 50px;
+    }
+  @media screen and (max-width: 576px) {
+    .gallery{
+      flex-direction: column;
+    }
+    .group-1{
+      width: 100%;
+    }
+    .group-2{
+      width: 100%;
+    }
+  }
+  </style>
+</head>
+<body>
+      <div class="gallery">
+        <div class="group-1">
+          <h1>Left</h1>
+        </div>
+        <div class="group-2">
+          <h1>Right </h1>
+        </div>
+      </div>
+</body>
+</html>

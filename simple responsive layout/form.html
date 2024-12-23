@@ -1,56 +1,55 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title> Form</title>
+  <title> Form </title>
   <style>
-    nav {
+    nav{
       display: flex;
       justify-content: space-between;
-
     }
-     .nav a {
+   nav a{
       text-decoration: none;
-      color: black;
-     }
-    .login-form-container {
-      display: flex;
-      justify-content: center;
-      border: 1px solid salmon;
-      height: 50dvh;
-    }
-     .Login-form {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      /* border: 2px solid blueviolet; */
-      width: 50%;
-     }
-     .Login-form input {
-      margin-top: 20px;
-     }
-
+      
+   }
+   .Login-form-container{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid salmon; */
+    height: 90vh;
+    align-items: center;
+   }
+   .Login-form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+    justify-content: center;
+    /* border: 2px solid red; */
+   }
+   .Login-form input{
+    margin-top: 20px;
+   }
   </style>
- </head>
- <body>
-      <nav>
-        <div>
-          <a href="">Home</a>
-          <a href="">Profile</a>
-          <a href="">Blog</a>
-          <a href="">About</a>
-        </div>
-        <a href="">Login</a>
-      </nav>
-      <section class="login-form-container">
-        <form class="Login-form">
-          <h3>please Login </h3>
-          <input type="email" name="" id=""
-          placeholder="Your Email"required >
-        <input type="password"required name="" id="">
-        <input type="submit" value="Login">
-        </form>
-      </section>
- </body>
- </html>
+</head>
+<body>
+  <nav>
+    <div>
+      <a href="">Home </a>
+     <a href="">Profile</a>
+     <a href="">Blog</a>
+     <a href="">About </a>
+    </div>
+    <a href="">Login</a>
+  </nav>
+  <section class="Login-form-container">
+    <form class="Login-form">
+      <h3>Please Login</h3>
+      <input type="email"    name="" id="" placeholder="your email" required>
+      <input type="password" name="" id="" placeholder="password" required>
+      <input type="submit" value="Login">
+    </form>
+  </section>
+</body>
+</html>
